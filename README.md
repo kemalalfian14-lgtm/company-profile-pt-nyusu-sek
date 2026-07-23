@@ -1,4 +1,5 @@
-<img width="1365" height="727" alt="WhatsApp Image 2026-07-23 at 23 54 05" src="https://github.com/user-attachments/assets/e926688d-ca1b-4188-8c25-249faee2fd8e" /># Company Profile PT. NYUSU SEK
+
+# Company Profile PT. NYUSU SEK
 
 ## 📖 Deskripsi Website
 
