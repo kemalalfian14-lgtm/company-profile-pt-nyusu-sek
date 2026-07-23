@@ -1,83 +1,140 @@
-# 👥 Tim Pengembang
+<img width="1365" height="727" alt="WhatsApp Image 2026-07-23 at 23 54 05" src="https://github.com/user-attachments/assets/e926688d-ca1b-4188-8c25-249faee2fd8e" /># Company Profile PT. NYUSU SEK
 
+## 📖 Deskripsi Website
 
+Website **Company Profile PT. NYUSU SEK** merupakan aplikasi berbasis web yang dikembangkan menggunakan **Laravel 12** sebagai media informasi perusahaan. Website ini bertujuan untuk memperkenalkan profil perusahaan, layanan, tim, galeri, serta menyediakan media komunikasi antara perusahaan dan pengunjung.
+
+Selain halaman pengunjung (Front End), website ini juga menyediakan **Dashboard Administrator (Back End)** yang digunakan untuk mengelola seluruh konten website secara mudah melalui fitur CRUD.
+
+---
+
+# ✨ Fitur Website
+
+## Front End
+
+Website menyediakan beberapa menu utama yang dapat diakses oleh seluruh pengunjung, yaitu:
+
+- 🏠 Home
+- ℹ️ About
+- 💼 Services
+- 🖼️ Gallery
+- 👥 Team
+- 📞 Contact
+
+---
+
+## Back End
+
+Administrator dapat mengakses dashboard untuk mengelola data website melalui beberapa menu berikut:
+
+- Dashboard
+- Services
+- Gallery
+- Team
+- Profile
+- Logout
+
+---
+
+## Fitur CRUD
+
+Administrator dapat melakukan pengelolaan data berupa:
+
+- Create Data
+- Read Data
+- Update Data
+- Delete Data
+
+CRUD digunakan pada:
+
+- Data Services
+- Data Gallery
+- Data Team
+
+---
+
+## Keunggulan Website
+
+- Dibangun menggunakan **Laravel 12** dengan arsitektur MVC.
+- Memiliki Dashboard Administrator.
+- Menggunakan sistem Authentication.
+- Responsive Design menggunakan Bootstrap.
+- Mudah dikembangkan karena menggunakan Eloquent ORM dan Migration.
+- Interface sederhana dan mudah digunakan.
+
+---
+
+# 🛠️ Teknologi yang Digunakan
+
+- Laravel 12
+- PHP 8.2
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- SQLite
+- Apache Web Server
+- Composer
+- Git
+- GitHub
+
+---
+
+# 📸 Screenshot Aplikasi
+
+## 1. Halaman Front End
+
+![Home](screenshots/homepage.png)
+
+---
+
+## 2. Halaman About
+
+![About](screenshots/about.png)
+
+---
+
+## 3. Dashboard Administrator
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## 4. Halaman CRUD Services
+
+![CRUD](screenshots/services-crud.png)
+
+---
+
+## 5. Tampilan Fitur Website
+
+![Feature](screenshots/feature.png)
+
+---
+
+# 🌐 Demo Website
+
+### Website Pengunjung
+
+https://ptnyususek.free.je
+
+### Register Administrator
+
+https://ptnyususek.free.je/register
+
+---
+
+# 👨‍💻 Tim Kelompok
+
+| Nama | NIM | Peran |
+|------|------|-------------------------------|
 | Kristian Adya | 24030031 | UI/UX Designer |
 | Gagah Prasetyo | 24030008 | System Analyst & Documentation |
-| Sazkia Ratu Karina Alamsyah | 24030007  | Frontend Developer |
+| Sazkia Ratu Karina Alamsyah | 24030007 | Frontend Developer |
 | Kemal Alfian Falhaqi | 24030019 | Backend Developer |
 
 ---
 
-# 📌 Kontribusi Anggota Tim
+# 📄 Lisensi
 
-## 👨‍🎨 Kristian Adya
-### UI/UX Designer
-
-Kristian Adya bertanggung jawab dalam merancang tampilan antarmuka (User Interface) serta pengalaman pengguna (User Experience) pada Website Company Profile PT. NYUSU SEK. Perancangan dilakukan agar website memiliki tampilan yang menarik, mudah dipahami, serta memberikan pengalaman penggunaan yang nyaman bagi pengunjung maupun administrator.
-
-### Kontribusi
-
-- Mendesain User Interface (UI) website.
-- Mendesain User Experience (UX) agar website mudah digunakan.
-- Mendesain Dashboard Administrator.
-- Mendesain Landing Page.
-- Mendesain layout setiap halaman website.
-- Menentukan tata letak komponen agar konsisten dan responsif.
-
----
-
-## 📑 Gagah Prasetyo
-### System Analyst & Documentation
-
-Gagah Prasetyo bertanggung jawab dalam melakukan analisis kebutuhan sistem sebelum proses pengembangan dimulai. Selain itu juga menyusun dokumentasi proyek serta merancang alur kerja sistem agar proses pengembangan dapat berjalan secara terstruktur.
-
-### Kontribusi
-
-- Melakukan analisis kebutuhan sistem.
-- Melakukan analisis terhadap website yang akan dibangun.
-- Merancang alur proses sistem (System Flow).
-- Menyusun dokumentasi proyek.
-- Membantu penyusunan kebutuhan fungsional website.
-- Mendukung proses perencanaan pengembangan aplikasi.
-
----
-
-## 💻 Sazkia Ratu Karina Alamsyah
-### Frontend Developer
-
-Sazkia Ratu Karina Alamsyah bertanggung jawab dalam mengimplementasikan desain antarmuka ke dalam website menggunakan Blade Template Laravel. Selain itu juga mengembangkan tampilan website menggunakan HTML, CSS, Bootstrap, serta memastikan website dapat berjalan dengan baik pada berbagai ukuran layar.
-
-### Kontribusi
-
-- Implementasi Frontend Website.
-- Pengembangan Blade Template Laravel.
-- Styling menggunakan CSS.
-- Responsive Web Design.
-- Integrasi tampilan Frontend dengan Backend.
-- Optimalisasi tampilan agar mudah digunakan oleh pengguna.
-
----
-
-## ⚙️ Kemal Alfian Falhaqi
-### Backend Developer
-
-Kemal Alfian Falhaqi bertanggung jawab dalam membangun keseluruhan sistem backend menggunakan framework Laravel 12. Pengembangan meliputi logika bisnis aplikasi, sistem autentikasi administrator, pengelolaan database, hingga implementasi fitur CRUD sehingga administrator dapat mengelola seluruh informasi perusahaan secara efektif.
-
-### Kontribusi
-
-- Mengembangkan Backend menggunakan Laravel 12.
-- Mengimplementasikan Authentication (Login & Logout Administrator).
-- Mengembangkan fitur CRUD (Create, Read, Update, Delete).
-- Merancang dan mengelola Database aplikasi.
-- Mengembangkan Controller sebagai pusat logika bisnis aplikasi.
-- Mengembangkan Model menggunakan Eloquent ORM.
-- Membuat Database Migration.
-- Melakukan validasi data sebelum disimpan ke database.
-- Mengintegrasikan Backend dengan Frontend sehingga data dapat ditampilkan secara dinamis.
-- Mengoptimalkan proses pengolahan data agar aplikasi berjalan lebih efisien.
-
----
-
-# 🤝 Kolaborasi Tim
-
-Website **Company Profile PT. NYUSU SEK** dikembangkan melalui kolaborasi seluruh anggota tim sesuai dengan bidang keahlian masing-masing. Setiap anggota memiliki tanggung jawab yang berbeda, mulai dari analisis kebutuhan sistem, perancangan antarmuka pengguna, implementasi frontend, hingga pengembangan backend dan pengelolaan database. Pembagian tugas tersebut bertujuan agar proses pengembangan aplikasi berjalan secara efektif, terstruktur, dan menghasilkan website yang memenuhi kebutuhan pengguna.
+Project ini dikembangkan sebagai tugas mata kuliah **Rekayasa Web** Program Studi Informatika, Institut Teknologi Dirgantara Adisutjipto.
